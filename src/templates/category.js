@@ -11,11 +11,9 @@ export const query = graphql`
         node {
           strapiId
           title
+          YoutubeID
           category {
             name
-          }
-          image {
-            publicURL
           }
         }
       }

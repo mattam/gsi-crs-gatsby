@@ -16,11 +16,9 @@ const IndexPage = () => (
               node {
                 strapiId
                 title
+                YoutubeID
                 category {
                   name
-                }
-                image {
-                  publicURL
                 }
               }
             }
